@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins',sans-serif;
+    color: black;
+}
+.logo{
+    position: absolute;
+    font-weight: 700;
+    font-size: 2rem;
+    top: 30px;
+    left: 100px;
+    z-index: 10;
+
+}
+.home-content{
+    position: relative;
+    z-index: 10;
+    max-width: 600px;
+}
+.home-img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 110%;
+}
+.navigation{
+  display: none;
+}
+section{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    height: 100vh;
+}
